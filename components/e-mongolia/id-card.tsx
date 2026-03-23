@@ -38,7 +38,7 @@ export function IDCard({ isFlipped, onCardClick }: IDCardProps) {
           />
 
           {/* Overlay for text display (read-only) */}
-          <div className="absolute inset-0 pointer-events-none" style={{ fontFamily: "sans-serif", fontSize: "clamp(10px, 3vw, 13px)" }}>
+          <div className="absolute inset-0 pointer-events-none" style={{ fontFamily: "sans-serif", fontSize: "clamp(8px, 3vw, 10px)" }}>
             {/* Photo area - responsive sizing */}
             <div
               className="absolute overflow-hidden"
@@ -71,8 +71,8 @@ export function IDCard({ isFlipped, onCardClick }: IDCardProps) {
                 top: "25%",
                 width: "35%",
                 fontFamily: "sans-serif",
-                fontSize: "clamp(10px, 3vw, 13px)",
-                lineHeight: "1"
+                fontSize: "clamp(8px, 3vw, 10px)",
+                lineHeight: "1.2"
               }}
             >
               {data.familyName}
@@ -86,8 +86,8 @@ export function IDCard({ isFlipped, onCardClick }: IDCardProps) {
                 top: "38%",
                 width: "35%",
                 fontFamily: "sans-serif",
-                fontSize: "clamp(10px, 3vw, 13px)",
-                lineHeight: "1"
+                fontSize: "clamp(8px, 3vw, 10px)",
+                lineHeight: "1.2"
               }}
             >
               {data.surname}
@@ -101,8 +101,8 @@ export function IDCard({ isFlipped, onCardClick }: IDCardProps) {
                 top: "50%",
                 width: "35%",
                 fontFamily: "sans-serif",
-                fontSize: "clamp(10px, 3vw, 13px)",
-                lineHeight: "1"
+                fontSize: "clamp(8px, 3vw, 10px)",
+                lineHeight: "1.2"
               }}
             >
               {data.givenName}
@@ -116,8 +116,8 @@ export function IDCard({ isFlipped, onCardClick }: IDCardProps) {
                 top: "62%",
                 width: "20%",
                 fontFamily: "sans-serif",
-                fontSize: "clamp(10px, 3vw, 13px)",
-                lineHeight: "1"
+                fontSize: "clamp(8px, 3vw, 10px)",
+                lineHeight: "1.2"
               }}
             >
               {data.sex}
@@ -131,8 +131,8 @@ export function IDCard({ isFlipped, onCardClick }: IDCardProps) {
                 top: "78%",
                 width: "25%",
                 fontFamily: "sans-serif",
-                fontSize: "clamp(10px, 3vw, 13px)",
-                lineHeight: "1"
+                fontSize: "clamp(8px, 3vw, 10px)",
+                lineHeight: "1.2"
               }}
             >
               {data.dateOfBirth}
@@ -146,8 +146,8 @@ export function IDCard({ isFlipped, onCardClick }: IDCardProps) {
                 top: "90%",
                 width: "40%",
                 fontFamily: "sans-serif",
-                fontSize: "clamp(10px, 3vw, 13px)",
-                lineHeight: "1"
+                fontSize: "clamp(8px, 3vw, 10px)",
+                lineHeight: "1.2"
               }}
             >
               {data.civilId}
@@ -172,7 +172,7 @@ export function IDCard({ isFlipped, onCardClick }: IDCardProps) {
           />
 
           {/* Overlay for back side display (read-only) */}
-          <div className="absolute inset-0 pointer-events-none" style={{ fontFamily: "sans-serif", fontSize: "clamp(10px, 3vw, 13px)" }}>
+          <div className="absolute inset-0 pointer-events-none" style={{ fontFamily: "sans-serif", fontSize: "clamp(8px, 3vw, 10px)" }}>
             {/* Issued Date */}
             <p
               className="absolute text-[#1a365d] font-normal truncate"
@@ -181,8 +181,8 @@ export function IDCard({ isFlipped, onCardClick }: IDCardProps) {
                 top: "32%",
                 width: "30%",
                 fontFamily: "sans-serif",
-                fontSize: "clamp(10px, 3vw, 13px)",
-                lineHeight: "1"
+                fontSize: "clamp(8px, 3vw, 10px)",
+                lineHeight: "1.2"
               }}
             >
               {data.issuedDate}
@@ -196,8 +196,8 @@ export function IDCard({ isFlipped, onCardClick }: IDCardProps) {
                 top: "43%",
                 width: "30%",
                 fontFamily: "sans-serif",
-                fontSize: "clamp(10px, 3vw, 13px)",
-                lineHeight: "1"
+                fontSize: "clamp(8px, 3vw, 10px)",
+                lineHeight: "1.2"
               }}
             >
               {data.expiryDate}
@@ -211,8 +211,8 @@ export function IDCard({ isFlipped, onCardClick }: IDCardProps) {
                 top: "56%",
                 width: "50%",
                 fontFamily: "sans-serif",
-                fontSize: "clamp(10px, 3vw, 13px)",
-                lineHeight: "1"
+                fontSize: "clamp(8px, 3vw, 10px)",
+                lineHeight: "1.2"
               }}
             >
               {data.address}

@@ -38,7 +38,7 @@ export function IDCard({ isFlipped, onCardClick }: IDCardProps) {
           />
 
           {/* Overlay for text display (read-only) */}
-          <div className="absolute inset-0 pointer-events-none" style={{ fontFamily: "system-ui", fontSize: "clamp(10px, 3vw, 13px)" }}>
+          <div className="absolute inset-0 pointer-events-none" style={{ fontFamily: "sans-serif", fontSize: "clamp(10px, 3vw, 13px)" }}>
             {/* Photo area - responsive sizing */}
             <div
               className="absolute overflow-hidden"
@@ -70,7 +70,7 @@ export function IDCard({ isFlipped, onCardClick }: IDCardProps) {
                 left: "28%",
                 top: "25%",
                 width: "35%",
-                fontFamily: "system-ui",
+                fontFamily: "sans-serif",
                 fontSize: "clamp(10px, 3vw, 13px)",
                 lineHeight: "1"
               }}
@@ -85,7 +85,7 @@ export function IDCard({ isFlipped, onCardClick }: IDCardProps) {
                 left: "28%",
                 top: "38%",
                 width: "35%",
-                fontFamily: "system-ui",
+                fontFamily: "sans-serif",
                 fontSize: "clamp(10px, 3vw, 13px)",
                 lineHeight: "1"
               }}
@@ -100,7 +100,7 @@ export function IDCard({ isFlipped, onCardClick }: IDCardProps) {
                 left: "28%",
                 top: "50%",
                 width: "35%",
-                fontFamily: "system-ui",
+                fontFamily: "sans-serif",
                 fontSize: "clamp(10px, 3vw, 13px)",
                 lineHeight: "1"
               }}
@@ -115,7 +115,7 @@ export function IDCard({ isFlipped, onCardClick }: IDCardProps) {
                 left: "28%",
                 top: "62%",
                 width: "20%",
-                fontFamily: "system-ui",
+                fontFamily: "sans-serif",
                 fontSize: "clamp(10px, 3vw, 13px)",
                 lineHeight: "1"
               }}
@@ -130,7 +130,7 @@ export function IDCard({ isFlipped, onCardClick }: IDCardProps) {
                 left: "28%",
                 top: "78%",
                 width: "25%",
-                fontFamily: "system-ui",
+                fontFamily: "sans-serif",
                 fontSize: "clamp(10px, 3vw, 13px)",
                 lineHeight: "1"
               }}
@@ -145,7 +145,7 @@ export function IDCard({ isFlipped, onCardClick }: IDCardProps) {
                 left: "28%",
                 top: "90%",
                 width: "40%",
-                fontFamily: "system-ui",
+                fontFamily: "sans-serif",
                 fontSize: "clamp(10px, 3vw, 13px)",
                 lineHeight: "1"
               }}
@@ -172,7 +172,7 @@ export function IDCard({ isFlipped, onCardClick }: IDCardProps) {
           />
 
           {/* Overlay for back side display (read-only) */}
-          <div className="absolute inset-0 pointer-events-none" style={{ fontFamily: "system-ui", fontSize: "clamp(10px, 3vw, 13px)" }}>
+          <div className="absolute inset-0 pointer-events-none" style={{ fontFamily: "sans-serif", fontSize: "clamp(10px, 3vw, 13px)" }}>
             {/* Issued Date */}
             <p
               className="absolute text-[#1a365d] font-normal truncate"
@@ -180,7 +180,7 @@ export function IDCard({ isFlipped, onCardClick }: IDCardProps) {
                 left: "34%",
                 top: "32%",
                 width: "30%",
-                fontFamily: "system-ui",
+                fontFamily: "sans-serif",
                 fontSize: "clamp(10px, 3vw, 13px)",
                 lineHeight: "1"
               }}
@@ -195,7 +195,7 @@ export function IDCard({ isFlipped, onCardClick }: IDCardProps) {
                 left: "34%",
                 top: "43%",
                 width: "30%",
-                fontFamily: "system-ui",
+                fontFamily: "sans-serif",
                 fontSize: "clamp(10px, 3vw, 13px)",
                 lineHeight: "1"
               }}
@@ -210,7 +210,7 @@ export function IDCard({ isFlipped, onCardClick }: IDCardProps) {
                 left: "32%",
                 top: "56%",
                 width: "50%",
-                fontFamily: "system-ui",
+                fontFamily: "sans-serif",
                 fontSize: "clamp(10px, 3vw, 13px)",
                 lineHeight: "1"
               }}

@@ -25,7 +25,7 @@ export function IDCardStyled({
     <div 
       className="bg-[#f5ebe0] rounded-2xl overflow-hidden shadow-lg cursor-pointer"
       onClick={onClick}
-      style={{ fontFamily: "system-ui" }}
+      style={{ fontFamily: "sans-serif" }}
     >
       <div className="p-4 relative">
         {/* Background watermark */}

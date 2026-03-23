@@ -28,7 +28,7 @@ export function IDCardPreview({ onClick }: IDCardPreviewProps) {
       />
 
       {/* Overlay for data display */}
-      <div className="absolute inset-0 pointer-events-none" style={{ fontFamily: "system-ui", fontSize: "clamp(10px, 3vw, 13px)" }}>
+      <div className="absolute inset-0 pointer-events-none" style={{ fontFamily: "sans-serif", fontSize: "clamp(10px, 3vw, 13px)" }}>
         {/* Photo area - responsive sizing */}
         <div
           className="absolute overflow-hidden"
@@ -57,7 +57,7 @@ export function IDCardPreview({ onClick }: IDCardPreviewProps) {
             top: "25%",
             width: "35%",
             fontSize: "clamp(10px, 3vw, 13px)",
-            fontFamily: "system-ui",
+            fontFamily: "sans-serif",
             lineHeight: "1"
           }}
         >
@@ -72,7 +72,7 @@ export function IDCardPreview({ onClick }: IDCardPreviewProps) {
             top: "38%",
             width: "35%",
             fontSize: "clamp(10px, 3vw, 13px)",
-            fontFamily: "system-ui",
+            fontFamily: "sans-serif",
             lineHeight: "1"
           }}
         >
@@ -87,7 +87,7 @@ export function IDCardPreview({ onClick }: IDCardPreviewProps) {
             top: "50%",
             width: "35%",
             fontSize: "clamp(10px, 3vw, 13px)",
-            fontFamily: "system-ui",
+            fontFamily: "sans-serif",
             lineHeight: "1"
           }}
         >
@@ -102,7 +102,7 @@ export function IDCardPreview({ onClick }: IDCardPreviewProps) {
             top: "62%",
             width: "20%",
             fontSize: "clamp(10px, 3vw, 13px)",
-            fontFamily: "system-ui",
+            fontFamily: "sans-serif",
             lineHeight: "1"
           }}
         >
@@ -117,7 +117,7 @@ export function IDCardPreview({ onClick }: IDCardPreviewProps) {
             top: "78%",
             width: "25%",
             fontSize: "clamp(10px, 3vw, 13px)",
-            fontFamily: "system-ui",
+            fontFamily: "sans-serif",
             lineHeight: "1"
           }}
         >
@@ -132,7 +132,7 @@ export function IDCardPreview({ onClick }: IDCardPreviewProps) {
             top: "90%",
             width: "40%",
             fontSize: "clamp(10px, 3vw, 13px)",
-            fontFamily: "system-ui",
+            fontFamily: "sans-serif",
             lineHeight: "1"
           }}
         >

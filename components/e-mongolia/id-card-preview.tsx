@@ -28,7 +28,7 @@ export function IDCardPreview({ onClick }: IDCardPreviewProps) {
       />
 
       {/* Overlay for data display */}
-      <div className="absolute inset-0 pointer-events-none" style={{ fontFamily: "sans-serif", fontSize: "clamp(10px, 3vw, 13px)" }}>
+      <div className="absolute inset-0 pointer-events-none" style={{ fontFamily: "sans-serif", fontSize: "clamp(8px, 3vw, 10px)" }}>
         {/* Photo area - responsive sizing */}
         <div
           className="absolute overflow-hidden"
@@ -56,9 +56,9 @@ export function IDCardPreview({ onClick }: IDCardPreviewProps) {
             left: "28%",
             top: "25%",
             width: "35%",
-            fontSize: "clamp(10px, 3vw, 13px)",
+            fontSize: "clamp(8px, 3vw, 10px)",
             fontFamily: "sans-serif",
-            lineHeight: "1"
+            lineHeight: "1.2"
           }}
         >
           {data.familyName}
@@ -71,9 +71,9 @@ export function IDCardPreview({ onClick }: IDCardPreviewProps) {
             left: "28%",
             top: "38%",
             width: "35%",
-            fontSize: "clamp(10px, 3vw, 13px)",
+            fontSize: "clamp(8px, 3vw, 10px)",
             fontFamily: "sans-serif",
-            lineHeight: "1"
+            lineHeight: "1.2"
           }}
         >
           {data.surname}
@@ -86,9 +86,9 @@ export function IDCardPreview({ onClick }: IDCardPreviewProps) {
             left: "28%",
             top: "50%",
             width: "35%",
-            fontSize: "clamp(10px, 3vw, 13px)",
+            fontSize: "clamp(8px, 3vw, 10px)",
             fontFamily: "sans-serif",
-            lineHeight: "1"
+            lineHeight: "1.2"
           }}
         >
           {data.givenName}
@@ -101,9 +101,9 @@ export function IDCardPreview({ onClick }: IDCardPreviewProps) {
             left: "28%",
             top: "62%",
             width: "20%",
-            fontSize: "clamp(10px, 3vw, 13px)",
+            fontSize: "clamp(8px, 3vw, 10px)",
             fontFamily: "sans-serif",
-            lineHeight: "1"
+            lineHeight: "1.2"
           }}
         >
           {data.sex}
@@ -116,9 +116,9 @@ export function IDCardPreview({ onClick }: IDCardPreviewProps) {
             left: "28%",
             top: "78%",
             width: "25%",
-            fontSize: "clamp(10px, 3vw, 13px)",
+            fontSize: "clamp(8px, 3vw, 10px)",
             fontFamily: "sans-serif",
-            lineHeight: "1"
+            lineHeight: "1.2"
           }}
         >
           {data.dateOfBirth}
@@ -131,9 +131,9 @@ export function IDCardPreview({ onClick }: IDCardPreviewProps) {
             left: "28%",
             top: "90%",
             width: "40%",
-            fontSize: "clamp(10px, 3vw, 13px)",
+            fontSize: "clamp(8px, 3vw, 10px)",
             fontFamily: "sans-serif",
-            lineHeight: "1"
+            lineHeight: "1.2"
           }}
         >
           {data.civilId}
